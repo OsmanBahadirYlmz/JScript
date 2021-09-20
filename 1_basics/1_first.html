@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="isim">
+</br></br>
+
+    <input type="text" id="soyisim">
+</br></br>
+    <input type="text" id="girdi3">
+
+</br>
+    <button id="artir" style="height: 50px;width: 150px;margin-top: 10px;" onclick="sayiArtir()">Artır</button>
+
+    <script>
+        var ad=document.getElementById("isim");
+        var soyad=document.getElementById("soyisim");
+
+        ad.value="ders";
+        soyad.value="1";
+
+        function sayiArtir(){
+            soyad.value = parseInt(soyad.value) +1;
+
+            if (soyad.value=="10"){
+                alert(("sayac 5 oldu!!"))
+            }
+
+        }
+
+        // var a=7;
+        // var b=10;
+        // if (a>b) {alert ("this is my first")}
+        // else {alert("this is my second")}
+
+    </script>
+
+
+
+</body>
+</html>

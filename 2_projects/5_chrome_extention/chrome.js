@@ -1,3 +1,8 @@
+let inputBtn= document.getElementById("input-btn")
+inputBtn.addEventListener("click", function() {
+    console.log("button cliced")
+})
+
 let person= {
     name:"osman",
     age:33,
@@ -12,3 +17,10 @@ function logData() {
 
 logData()
 console.log("ab")
+
+function saveLead(){
+    console.log("save basıldı")
+}
+
+
+

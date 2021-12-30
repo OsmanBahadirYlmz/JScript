@@ -1,0 +1,19 @@
+body{
+    background:white;
+}
+h1{
+    color: rgb(26, 21, 21);
+}
+.aclass {
+    color: blue;
+}
+#img_goz {
+    height: 250px;px;
+    box-align: left;
+    border: 12px  dotted black ;
+    padding : 8px;
+    background: red;  
+    float: left;
+
+
+}

@@ -41,6 +41,7 @@ function getRandomCard(){
 
 function startgame(){
     isalive=true
+    hasblackjack=false
     fcard=getRandomCard()
     scard=getRandomCard()
     cards=[fcard,scard]
